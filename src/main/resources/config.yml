@@ -1,0 +1,23 @@
+antivpn:
+  #get the api key from https://proxycheck.io/.
+  apikey: ""
+  #the message in the kick screen that is sent to player when he is kicked for using vpn.
+  vpnmessage: "&cPlease disable your VPN/PROXY before joining on the server!"
+  command-usage: "&cUsage: /antivpn %cmd%"
+  help-message:
+    - "&7&m----------------------------------------------------"
+    - "&e /antivpn &7> &bShows this message."
+    - "&e /antivpn add &a<address> &7> &bAdd IP Address in the whitelist."
+    - "&e /antivpn remove &a<address> &7> &bRemove IP Address from the whitelist."
+    - "&e /antivpn reload &7> &bReload config."
+    - "&7&m----------------------------------------------------"
+  no-perm: "&cYou don't have permission to execute this command!"
+  unable-to-remove: "&cThis IP Address is not in the whitelist!"
+  unable-to-add: "&cThis IP Address is already in whitelist!"
+  remove-success: "&aRemoved &6'%ip%'&a from the whitelist!"
+  reload-success: "&aConfig & Whitelist has been reloaded!"
+  #if name contains this then player will be kicked.
+  blacklisted-names:
+    - MCSTORM
+    - MCBOT
+  blacklisted-name-kick: "&cYour name contains blacklisted characters."

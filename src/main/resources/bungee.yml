@@ -1,0 +1,7 @@
+name: AntiVPN
+main: net.multylands.antivpn.AntiVPN
+version: 1.0
+author: GreenedDev
+commands:
+  antivpn:
+    aliases: [avpn]
