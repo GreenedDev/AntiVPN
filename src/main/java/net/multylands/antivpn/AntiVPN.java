@@ -67,6 +67,7 @@ public class AntiVPN extends Plugin {
             e.printStackTrace();
         }
     }
+
     public void saveAdded() {
         try {
             data = new File(dir, "whitelist.yml");
@@ -75,6 +76,7 @@ public class AntiVPN extends Plugin {
             e.printStackTrace();
         }
     }
+
     public void reloadAntiVPNConfig() {
         try {
             configFile = new File(dir, "config.yml");
@@ -84,6 +86,7 @@ public class AntiVPN extends Plugin {
             e.printStackTrace();
         }
     }
+
     public void reloadKeys() {
         blacklistedNames = config.getStringList("antivpn.blacklisted-names");
         blockMessage = config.getString("antivpn.vpnmessage");

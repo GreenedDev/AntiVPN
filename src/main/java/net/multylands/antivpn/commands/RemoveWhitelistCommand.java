@@ -9,6 +9,7 @@ import java.util.List;
 
 public class RemoveWhitelistCommand extends Command {
     AntiVPN plugin;
+
     public RemoveWhitelistCommand(AntiVPN plugin) {
         //this name doesnt really matter because we arent actually registering this command
         super("removewhitelistantivpn");
